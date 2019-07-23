@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+  <a class="navbar-brand" href="#"><img id='resize' src="../../../assets/images/logoT.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink='/about'>About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/weather">Weather</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/financial">Financial</a>
+      </li>
+
+      <li *ngIf='this.signedIn' class="nav-item">
+        <a class="nav-link" (click)="signOut()">SignOut</a>
+      </li>
+
+
+      <li *ngIf='(this.signedIn)==false' class='nav-item'>
+        <a class="nav-link" (click)='onLogin()' routerLink='/login'>Login</a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>

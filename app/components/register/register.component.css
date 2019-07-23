@@ -1,0 +1,46 @@
+.main {
+  background-image: url('../../../assets/images/white-waves/white-waves.png');
+  background-repeat: repeat-x repeat-y;
+}
+
+input {
+  width: 220px;
+
+}
+
+.card {
+  margin: 0 auto;
+
+}
+
+.sep {
+  margin-top: 40px;
+}
+
+.btn-success {
+  margin-top: 5px;
+}
+
+button {
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  line-height: 1.1em;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 400px) {
+  button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.1em;
+    font-size: .8em;
+  }
+
+  input {
+
+    width: 150px;
+  }
+
+}

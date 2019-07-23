@@ -1,0 +1,44 @@
+.school {
+  font-weight: 700;
+  font-size: 1em;
+  vertical-align: middle;
+
+
+}
+
+.iusb {
+  margin-left: -20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+  box-align: center;
+
+
+}
+
+.second {
+  padding-top: 10px;
+}
+
+.image {
+  border-top: solid 50px blueviolet;
+  border-bottom: solid 50px blueviolet;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+
+}
+
+h3 {
+  border: solid 10px blueviolet;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(220, 212, 228)
+}
+
+.contain {
+  background-image: url('../../../assets/images/white-waves/white-waves.png');
+  background-repeat: repeat;
+}
